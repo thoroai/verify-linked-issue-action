@@ -138,10 +138,10 @@ function checkIssue(issue, log) {
     return false;
   }
 
-  if (!issue.milestone) {
-    log.error("The issue is not linked to a milestone.");
-    return false;
-  }
+  //if (!issue.milestone) {
+    //log.error("The issue is not linked to a milestone.");
+    //return false;
+  //}
 
   log.debug(`Issue #${issue.number} is valid!`);
 
