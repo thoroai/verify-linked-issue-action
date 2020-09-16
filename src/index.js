@@ -133,10 +133,10 @@ function checkIssue(issue, log) {
     return false;
   }
 
-  if (issue.labels.length === 0) {
-    log.error("The issue is not labeled.");
-    return false;
-  }
+  //if (issue.labels.length === 0) {
+    //log.error("The issue is not labeled.");
+    //return false;
+  //}
 
   //if (!issue.milestone) {
     //log.error("The issue is not linked to a milestone.");
